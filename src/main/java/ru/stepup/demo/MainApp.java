@@ -11,6 +11,7 @@ public class MainApp {
             System.out.println(true);
         } else {
             System.out.println(false);
+            System.out.println("-");
         }
         ValueC vc = new ValueC("1");
         vc.setC(5);
