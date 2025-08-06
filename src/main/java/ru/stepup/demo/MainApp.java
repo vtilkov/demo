@@ -9,12 +9,18 @@ public class MainApp {
         String b = new String("1");
         if (a.equals(b)) {
             System.out.println(true);
+            doSomething();
         } else {
             System.out.println(false);
+            doSomething();
             System.out.println("-");
         }
         ValueC vc = new ValueC("1");
         vc.setC(5);
         System.out.println(vc.getC());
+    }
+
+    public static void doSomething() {
+        System.out.println("Привет Мир");
     }
 }
