@@ -9,8 +9,10 @@ public class MainApp {
         String b = new String("1");
         if (a.equals(b)) {
             System.out.println(true);
+            doSomething();
         } else {
             System.out.println(false);
+            doSomething();
             System.out.println("-");
         }
         ValueC vc = new ValueC("1");
