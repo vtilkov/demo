@@ -17,4 +17,8 @@ public class MainApp {
         vc.setC(5);
         System.out.println(vc.getC());
     }
+
+    public static void doSomething() {
+        System.out.println("Привет Мир");
+    }
 }
