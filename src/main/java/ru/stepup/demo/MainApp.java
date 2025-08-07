@@ -1,5 +1,7 @@
 package ru.stepup.demo;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class MainApp {
 
     public static void main(String[] args) {
@@ -18,6 +20,14 @@ public class MainApp {
         ValueC vc = new ValueC("1");
         vc.setC(5);
         System.out.println(vc.getC());
+
+        // TODO новый функционал
+        int x = Integer.parseInt(args[0]);
+        int y = Integer.parseInt(args[1]);
+
+        int sum =x+y;
+
+        System.out.println(x+" + "+y+" = "+sum);
     }
 
     public static void doSomething() {
